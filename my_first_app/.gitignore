@@ -6,9 +6,11 @@
 .vscode/
 *.swp
 *.iml
+*.log
 
 # Flutter/Dart/Pub generated files
 **/.dart_tool/
+**/.flutter-plugins
 **/.flutter-plugins-dependencies
 **/.pub-cache/
 **/.pub/
