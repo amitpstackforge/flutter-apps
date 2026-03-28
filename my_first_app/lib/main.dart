@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'about_lead_form_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +35,7 @@ class _MainNavigationPageState extends State<MainNavigationPage> {
 
   final List<Widget> _pages = const [
     HomePage(),
-    AboutPage(),
+    AboutLeadFormPage(),
     ProfilePage(),
     HelpPage(),
   ];
@@ -113,19 +114,19 @@ class HomePage extends StatelessWidget {
 }
 
 /// About page
-class AboutPage extends StatelessWidget {
-  const AboutPage({super.key});
+// class AboutLeadFormPage extends StatelessWidget {
+//   const AboutLeadFormPage({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return const Center(
-      child: Text(
-        "This is the About Page",
-        style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-      ),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return const Center(
+//       child: Text(
+//         "This is the About Page",
+//         style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+//       ),
+//     );
+//   }
+// }
 
 /// Profile page with form and photo
 class ProfilePage extends StatefulWidget {
