@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'about_lead_form_page.dart';
+import 'help_lead_form_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -304,17 +305,17 @@ class _ProfilePageState extends State<ProfilePage> {
   }
 }
 
-/// Help page
-class HelpPage extends StatelessWidget {
-  const HelpPage({super.key});
+// /// Help page
+// class HelpPage extends StatelessWidget {
+//   const HelpPage({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return const Center(
-      child: Text(
-        "This is the Help Page",
-        style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-      ),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return const Center(
+//       child: Text(
+//         "This is the Help Page",
+//         style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+//       ),
+//     );
+//   }
+// }
